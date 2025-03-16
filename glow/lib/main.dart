@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       colorScheme: ColorScheme.fromSeed(
         brightness: Brightness.light,
         seedColor: const Color(0xFFF7F7F8), // TODO: change primary color
-        primary: const Color(0xFF323157), // TODO: change primary color
+        primary: Colors.yellow, // TODO: change primary color
         surface: Colors.white,
         onSurface: Colors.black,
         inverseSurface: Colors.black,
@@ -59,8 +59,8 @@ class MyApp extends StatelessWidget {
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
         brightness: Brightness.dark,
-        seedColor: const Color(0xFF46415D), // TODO: change primary color
-        primary: const Color(0xFF323157), // TODO: change primary color
+        seedColor: Colors.deepPurple, // TODO: change primary color
+        primary: Colors.deepPurpleAccent , // TODO: change primary color
         surface: Colors.black,
         onSurface: Colors.white,
         inverseSurface: Colors.white,
@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
       ),
       builder: (lightTheme, darkTheme) {
         return MaterialApp.router(
-          title: 'My App',
+          title: 'GlowApp',
           theme: lightTheme,
           darkTheme: darkTheme,
           routerConfig: router,

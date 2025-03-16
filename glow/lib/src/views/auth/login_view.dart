@@ -95,12 +95,12 @@ class _LoginViewState extends State<LoginView> {
               const AppLogo(size: 60),
               const Gap(24),
               Text(
-                'Welcome Back',
+                'Welcome Back!',
                 style: theme.textTheme.headlineMedium,
               ),
               const Gap(8),
               Text(
-                'Login to your account',
+                'Login to GLOW Hub',
                 style: theme.textTheme.bodyMedium,
                 textAlign: TextAlign.center,
               ),
@@ -320,7 +320,7 @@ class _LoginViewState extends State<LoginView> {
                     const AppLogo(size: 80),
                     const Gap(32),
                     Text(
-                      'Female Founders Hub',
+                      'Welcome to GLOW Female Founders Hub',
                       style: theme.textTheme.headlineLarge?.copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -328,7 +328,7 @@ class _LoginViewState extends State<LoginView> {
                     ),
                     const Gap(16),
                     Text(
-                      'Connect, learn, and grow with other female entrepreneurs',
+                      'Connect, learn, grow and lead with other female entrepreneurs',
                       style: theme.textTheme.bodyLarge?.copyWith(
                         color: Colors.white,
                       ),

@@ -366,7 +366,7 @@ class _SignUpViewState extends State<SignUpView> {
                     const AppLogo(size: 80),
                     const Gap(32),
                     Text(
-                      'Female Founders Hub',
+                      'GLOW Female Founders Hub',
                       style: theme.textTheme.headlineLarge?.copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,

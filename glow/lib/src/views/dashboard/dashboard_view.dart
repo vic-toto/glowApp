@@ -24,7 +24,7 @@ class _DashboardViewState extends State<DashboardView> {
     
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Female Founders Hub'),
+        title: const Text('GLOW Female Founders Hub'),
         centerTitle: false,
       ),
       body: ResponsiveWrapper(
