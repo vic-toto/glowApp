@@ -1,0 +1,7 @@
+1. An "Add" button in the AppBar (IconButton with + icon)
+2. The _addOrEditInvestor method that opens the InvestorDetailView
+3. Form validation in InvestorDetailView
+4. Service method calls to add the investor
+5. UI updates after adding an investor
+
+The functionality is working as required, so no changes are needed to implement this feature since it's already properly implemented.
